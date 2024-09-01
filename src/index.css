@@ -1,0 +1,26 @@
+ @import url('https://fonts.cdnfonts.com/css/collingethon');
+ @import url('https://fonts.cdnfonts.com/css/vintage-glamore');
+ @import url('https://fonts.cdnfonts.com/css/belgan-aesthetic');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Belgan Aesthetic', sans-serif;
+  overflow-x: hidden;
+}
+
+.ft-cur{
+  font-family: 'Collingethon', sans-serif;
+
+}
+
+.ft-para{
+  font-family: 'Vintage Glamore', sans-serif;
+}
+
+.para::first-letter{
+  font-size: 2rem;
+}
+.para:before { content: "\00a0 "; }
